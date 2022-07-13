@@ -1,9 +1,15 @@
-import Link from 'next/link'
+import Hero from '../components/hero/Hero'
+
 
 export default function Home() {
   return (
-    <div>
-      Hello World. <Link href="/about">About</Link>
-    </div>
-  )
+    <>
+      <Hero>
+        <div>
+        <h1>Hello World!!From Tsotetsi</h1>
+        <p>Good day from Maseru</p>
+      </div>
+      </Hero>
+
+    </>);
 }

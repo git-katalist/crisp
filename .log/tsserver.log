@@ -1,55 +1,263 @@
-Info 0    [11:25:43.920] Starting TS Server
-Info 1    [11:25:43.920] Version: 4.6.4
-Info 2    [11:25:43.920] Arguments: /usr/bin/node /usr/lib/node_modules/typescript/lib/tsserver.js --logFile /home/tsotetsi/Projects/Code/Sandbox/crisp/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/ab48639d8c2c583cabe79b0f0f71536a/tscancellation*
-Info 3    [11:25:43.920] Platform: linux NodeVersion: 18 CaseSensitive: true
-Info 4    [11:25:43.920] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
-Info 5    [11:25:43.930] Format host information updated
-Info 6    [11:25:43.936] Search path: /home/tsotetsi/Projects/Code/Sandbox/crisp
-Info 7    [11:25:43.937] For info: /home/tsotetsi/Projects/Code/Sandbox/crisp/next.config.js :: No config files found.
-Info 8    [11:25:43.940] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 9    [11:25:44.548] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 607.9083230000688ms
-Info 10   [11:25:44.548] Project '/dev/null/inferredProject1*' (Inferred)
-Info 11   [11:25:44.548] 	Files (19)
+Info 0    [11:57:29.673] Starting TS Server
+Info 1    [11:57:29.673] Version: 4.6.4
+Info 2    [11:57:29.673] Arguments: /usr/bin/node /usr/lib/node_modules/typescript/lib/tsserver.js --logFile /home/tsotetsi/Projects/Code/Sandbox/crisp/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/60cec71797f6b4bc4a36e30211c9ef44/tscancellation*
+Info 3    [11:57:29.673] Platform: linux NodeVersion: 18 CaseSensitive: true
+Info 4    [11:57:29.673] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [11:57:29.682] Format host information updated
+Info 6    [11:57:29.689] Search path: /home/tsotetsi/Projects/Code/Sandbox/crisp/pages
+Info 7    [11:57:29.689] For info: /home/tsotetsi/Projects/Code/Sandbox/crisp/pages/_app.js :: No config files found.
+Info 8    [11:57:29.693] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [11:57:30.391] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 697.4972780002281ms
+Info 10   [11:57:30.391] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [11:57:30.391] 	Files (27)
 
-Info 12   [11:25:44.548] -----------------------------------------------
-Info 13   [11:25:44.555] AutoImportProviderProject: found 3 root files in 3 dependencies in 5.8588849999941885 ms
-Info 14   [11:25:44.573] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
-Info 15   [11:25:45.044] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 470.71146899997257ms
-Info 16   [11:25:45.044] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 17   [11:25:45.044] 	Files (81)
+Info 12   [11:57:30.391] -----------------------------------------------
+Info 13   [11:57:30.396] AutoImportProviderProject: found 4 root files in 4 dependencies in 4.304500000085682 ms
+Info 14   [11:57:30.397] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 15   [11:57:30.864] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 466.53268499998376ms
+Info 16   [11:57:30.864] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 17   [11:57:30.864] 	Files (93)
 
-Info 18   [11:25:45.044] -----------------------------------------------
-Info 19   [11:25:54.524] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 20   [11:25:54.531] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 7.044147999957204ms
-Info 21   [11:25:54.531] Different program with same set of files
-Info 22   [11:25:54.909] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 23   [11:25:54.918] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 9.702522000065073ms
-Info 24   [11:25:54.919] Different program with same set of files
-Info 25   [11:25:55.267] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 26   [11:25:55.273] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 5.3265440000686795ms
-Info 27   [11:25:55.273] Different program with same set of files
-Info 28   [11:25:56.392] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 29   [11:25:56.397] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 5.059654999990016ms
-Info 30   [11:25:56.398] Different program with same set of files
-Info 31   [11:25:56.708] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 32   [11:25:56.714] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 5.2187570000533015ms
-Info 33   [11:25:56.714] Different program with same set of files
-Info 34   [11:25:56.950] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 35   [11:25:56.956] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 6.173600999987684ms
-Info 36   [11:25:56.956] Different program with same set of files
-Info 37   [11:25:57.480] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 38   [11:25:57.484] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 4.402691000024788ms
-Info 39   [11:25:57.484] Different program with same set of files
-Info 40   [11:26:10.722] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 41   [11:26:11.238] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 9 structureChanged: true structureIsReused:: Not Elapsed: 515.6690980000421ms
-Info 42   [11:26:11.238] Project '/dev/null/inferredProject1*' (Inferred)
-Info 43   [11:26:11.238] 	Files (175)
+Info 18   [11:57:30.864] -----------------------------------------------
+Info 19   [11:57:51.703] FileWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json 0:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json 2000 undefined WatchType: Config file for the inferred project root
+Info 20   [11:57:51.704] Search path: /home/tsotetsi/Projects/Code/Sandbox/crisp/pages
+Info 21   [11:57:51.704] For info: /home/tsotetsi/Projects/Code/Sandbox/crisp/pages/_app.js :: Config file name: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json
+Info 22   [11:57:51.704] Creating configuration project /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json
+Info 23   [11:57:51.706] Elapsed:: 2.387457000091672ms FileWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json 0:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json 2000 undefined WatchType: Config file for the inferred project root
+Info 24   [11:57:51.956] Loading configured project /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json
+Info 25   [11:57:51.966] Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json : {
+ "rootNames": [
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/next.config.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/components/footer/Footer.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/components/hero/Hero.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/components/navigation/Navigation.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/chunks/664-c4badf615f7413a4.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/chunks/framework-7dc8a65f4a0cda33.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/chunks/main-d68b15022ccbb959.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/chunks/polyfills-0d1b80a048d4787e.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/chunks/webpack-160012440f7532b7.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/chunks/pages/_app-9538641435026bd3.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/chunks/pages/_error-942918685354aae9.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/chunks/pages/about-3c8195572d3d33db.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/chunks/pages/index-0da8339e4c66b8e9.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/kCMSjAhy4eQ1OWgcgAKjh/_buildManifest.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/kCMSjAhy4eQ1OWgcgAKjh/_ssgManifest.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/pages/_app.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/pages/_document.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/pages/about.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/pages/index.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/styles/Global.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/styles/Theme.js"
+ ],
+ "options": {
+  "allowJs": true,
+  "maxNodeModuleJsDepth": 2,
+  "allowSyntheticDefaultImports": true,
+  "skipLibCheck": true,
+  "noEmit": true,
+  "configFilePath": "/home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json"
+ }
+}
+Info 26   [11:57:51.970] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json
+Info 27   [11:57:52.881] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 910.409468000289ms
+Info 28   [11:57:52.881] Project '/home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json' (Configured)
+Info 29   [11:57:52.881] 	Files (175)
 
-Info 44   [11:26:11.238] -----------------------------------------------
-Info 45   [11:26:11.238] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 46   [11:26:11.238] 	Files (81)
+Info 30   [11:57:52.881] -----------------------------------------------
+Info 31   [11:57:52.884] AutoImportProviderProject: found 4 root files in 4 dependencies in 2.1795779997482896 ms
+Info 32   [11:57:52.884] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject2*
+Info 33   [11:57:53.125] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject2* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 240.83079899987206ms
+Info 34   [11:57:53.125] Project '/dev/null/autoImportProviderProject2*' (AutoImportProvider)
+Info 35   [11:57:53.125] 	Files (93)
 
-Info 47   [11:26:11.238] -----------------------------------------------
-Info 48   [11:26:12.972] Before ensureProjectForOpenFiles:
-Info 49   [11:26:12.972] After ensureProjectForOpenFiles:
-Info 50   [11:26:12.973] got projects updated in background, updating diagnostics for /home/tsotetsi/Projects/Code/Sandbox/crisp/next.config.js
+Info 36   [11:57:53.125] -----------------------------------------------
+Info 37   [11:57:53.409] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json
+Info 38   [11:57:53.447] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 37.63995200023055ms
+Info 39   [11:57:53.447] Project '/home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json' (Configured)
+Info 40   [11:57:53.447] 	Files (197)
+
+Info 41   [11:57:53.447] -----------------------------------------------
+Info 42   [11:57:53.447] Project '/dev/null/autoImportProviderProject2*' (AutoImportProvider)
+Info 43   [11:57:53.447] 	Files (93)
+
+Info 44   [11:57:53.447] -----------------------------------------------
+Info 45   [11:57:55.660] Before ensureProjectForOpenFiles:
+Info 46   [11:57:55.661] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 47   [11:57:55.664] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 3.088370999787003ms
+Info 48   [11:57:55.664] Project '/dev/null/inferredProject1*' (Inferred)
+Info 49   [11:57:55.664] 	Files (0)
+
+Info 50   [11:57:55.664] -----------------------------------------------
+Info 51   [11:57:55.664] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 52   [11:57:55.664] 	Files (93)
+
+Info 53   [11:57:55.664] -----------------------------------------------
+Info 54   [11:57:55.664] After ensureProjectForOpenFiles:
+Info 55   [11:57:55.665] got projects updated in background, updating diagnostics for /home/tsotetsi/Projects/Code/Sandbox/crisp/pages/_app.js
+Info 56   [11:58:47.722] FileWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json 2000 undefined WatchType: Config file for the inferred project root
+Info 57   [11:58:47.723] Elapsed:: 0.8416849998757243ms FileWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json 2000 undefined WatchType: Config file for the inferred project root
+Info 58   [11:58:47.973] Reloading configured project /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json
+Info 59   [11:58:47.987] Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json : {
+ "rootNames": [
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/next.config.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/components/footer/Footer.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/components/hero/Hero.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/components/navigation/Navigation.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/chunks/664-c4badf615f7413a4.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/chunks/framework-7dc8a65f4a0cda33.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/chunks/main-d68b15022ccbb959.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/chunks/polyfills-0d1b80a048d4787e.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/chunks/webpack-160012440f7532b7.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/chunks/pages/_app-9538641435026bd3.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/chunks/pages/_error-942918685354aae9.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/chunks/pages/about-3c8195572d3d33db.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/chunks/pages/index-0da8339e4c66b8e9.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/kCMSjAhy4eQ1OWgcgAKjh/_buildManifest.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/out/_next/static/kCMSjAhy4eQ1OWgcgAKjh/_ssgManifest.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/pages/_app.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/pages/_document.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/pages/about.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/pages/index.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/styles/Global.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/crisp/styles/Theme.js"
+ ],
+ "options": {
+  "allowJs": true,
+  "maxNodeModuleJsDepth": 2,
+  "allowSyntheticDefaultImports": true,
+  "skipLibCheck": true,
+  "noEmit": true,
+  "baseUrl": "/home/tsotetsi/Projects/Code/Sandbox/crisp",
+  "paths": {
+   "@Components/*": [
+    "./components/*"
+   ],
+   "Recipes/*": [
+    "./pages/noodles/recipes/*"
+   ],
+   "Styles/*": [
+    "./Styles/*"
+   ]
+  },
+  "pathsBasePath": "/home/tsotetsi/Projects/Code/Sandbox/crisp",
+  "configFilePath": "/home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json"
+ }
+}
+Info 60   [11:58:47.989] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json
+Info 61   [11:58:48.666] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Version: 3 structureChanged: true structureIsReused:: Not Elapsed: 676.589865999762ms
+Info 62   [11:58:48.666] Different program with same set of files
+Info 63   [11:58:50.224] Before ensureProjectForOpenFiles:
+Info 64   [11:58:50.224] After ensureProjectForOpenFiles:
+Info 65   [11:58:50.225] got projects updated in background, updating diagnostics for /home/tsotetsi/Projects/Code/Sandbox/crisp/pages/_app.js
+Info 66   [11:59:02.059] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/server/middleware-manifest.json :: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 67   [11:59:02.060] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/server/middleware-manifest.json
+Info 68   [11:59:02.060] Elapsed:: 0.31954900035634637ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/server/middleware-manifest.json :: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 69   [11:59:02.060] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/server/pages-manifest.json :: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 70   [11:59:02.060] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/server/pages-manifest.json
+Info 71   [11:59:02.060] Elapsed:: 0.04017799999564886ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/server/pages-manifest.json :: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 72   [11:59:02.060] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/server :: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 73   [11:59:02.060] Elapsed:: 0.14331599976867437ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/server :: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 74   [11:59:02.313] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json
+Info 75   [11:59:02.313] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Version: 4 structureChanged: false structureIsReused:: Not Elapsed: 0.6636999999172986ms
+Info 76   [11:59:04.560] Before ensureProjectForOpenFiles:
+Info 77   [11:59:04.560] After ensureProjectForOpenFiles:
+Info 78   [11:59:04.561] got projects updated in background, updating diagnostics for /home/tsotetsi/Projects/Code/Sandbox/crisp/pages/_app.js
+Info 79   [11:59:05.644] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp :: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 80   [11:59:05.644] Elapsed:: 0.11544800037518144ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp :: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 81   [11:59:05.908] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json
+Info 82   [11:59:05.909] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Version: 5 structureChanged: false structureIsReused:: Not Elapsed: 1.211941999848932ms
+Info 83   [11:59:08.145] Before ensureProjectForOpenFiles:
+Info 84   [11:59:08.145] After ensureProjectForOpenFiles:
+Info 85   [11:59:08.145] got projects updated in background, updating diagnostics for /home/tsotetsi/Projects/Code/Sandbox/crisp/pages/_app.js
+Info 86   [11:59:15.491] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp :: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 87   [11:59:15.491] Elapsed:: 0.08899000007659197ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp :: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 88   [11:59:15.750] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json
+Info 89   [11:59:15.750] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Version: 6 structureChanged: false structureIsReused:: Not Elapsed: 0.42914099991321564ms
+Info 90   [11:59:17.992] Before ensureProjectForOpenFiles:
+Info 91   [11:59:17.992] After ensureProjectForOpenFiles:
+Info 92   [11:59:17.992] got projects updated in background, updating diagnostics for /home/tsotetsi/Projects/Code/Sandbox/crisp/pages/_app.js
+Info 93   [11:59:26.765] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/static/chunks/pages/index.js 0:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 94   [11:59:26.766] Elapsed:: 0.41177200013771653ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/static/chunks/pages/index.js 0:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 95   [11:59:26.766] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/static/webpack/webpack.975608db2b452ad8.hot-update.js 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 96   [11:59:26.766] Elapsed:: 0.16597400000318885ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/static/webpack/webpack.975608db2b452ad8.hot-update.js 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 97   [11:59:26.766] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/static/webpack/975608db2b452ad8.webpack.hot-update.json 2:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 98   [11:59:26.766] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/static/webpack/975608db2b452ad8.webpack.hot-update.json
+Info 99   [11:59:26.766] Elapsed:: 0.09356500022113323ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/static/webpack/975608db2b452ad8.webpack.hot-update.json 2:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 100  [11:59:26.766] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/server/pages/index.js 3:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 101  [11:59:26.766] Elapsed:: 0.12983700027689338ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/server/pages/index.js 3:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 102  [11:59:27.018] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json
+Info 103  [11:59:27.020] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Version: 7 structureChanged: false structureIsReused:: Not Elapsed: 1.364581999834627ms
+Info 104  [11:59:29.267] Before ensureProjectForOpenFiles:
+Info 105  [11:59:29.267] After ensureProjectForOpenFiles:
+Info 106  [11:59:29.267] got projects updated in background, updating diagnostics for /home/tsotetsi/Projects/Code/Sandbox/crisp/pages/_app.js
+Info 107  [11:59:31.968] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/static/chunks/pages/about.js 0:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 108  [11:59:31.968] Elapsed:: 0.23424600018188357ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/static/chunks/pages/about.js 0:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 109  [11:59:31.968] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/static/webpack/webpack.12f571358d11d5c3.hot-update.js 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 110  [11:59:31.969] Elapsed:: 0.11591999977827072ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/static/webpack/webpack.12f571358d11d5c3.hot-update.js 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 111  [11:59:31.969] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/static/webpack/12f571358d11d5c3.webpack.hot-update.json 2:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 112  [11:59:31.969] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/static/webpack/12f571358d11d5c3.webpack.hot-update.json
+Info 113  [11:59:31.969] Elapsed:: 0.0879029999487102ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/static/webpack/12f571358d11d5c3.webpack.hot-update.json 2:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 114  [11:59:31.969] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/server/pages/about.js 3:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 115  [11:59:31.969] Elapsed:: 0.27698099985718727ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/server/pages/about.js 3:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 116  [11:59:32.220] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json
+Info 117  [11:59:32.221] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Version: 8 structureChanged: false structureIsReused:: Not Elapsed: 0.9501829999499023ms
+Info 118  [11:59:33.001] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/2.pack_ 0:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 119  [11:59:33.001] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/2.pack_
+Info 120  [11:59:33.001] Elapsed:: 0.17255899962037802ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/2.pack_ 0:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 121  [11:59:33.001] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/index.pack_ 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 122  [11:59:33.001] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/index.pack_
+Info 123  [11:59:33.002] Elapsed:: 0.0631399997510016ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/index.pack_ 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 124  [11:59:33.002] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/index.pack 2:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 125  [11:59:33.002] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/index.pack
+Info 126  [11:59:33.002] Elapsed:: 0.038170000072568655ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/index.pack 2:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 127  [11:59:33.002] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/index.pack.old 3:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 128  [11:59:33.002] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/index.pack.old
+Info 129  [11:59:33.002] Elapsed:: 0.03972200024873018ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/index.pack.old 3:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 130  [11:59:33.002] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/2.pack_ 4:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 131  [11:59:33.002] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/2.pack_
+Info 132  [11:59:33.002] Elapsed:: 0.04179099993780255ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/2.pack_ 4:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 133  [11:59:33.002] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/2.pack 5:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 134  [11:59:33.002] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/2.pack
+Info 135  [11:59:33.002] Elapsed:: 0.041696999687701464ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/2.pack 5:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 136  [11:59:33.002] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/index.pack_ 6:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 137  [11:59:33.002] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/index.pack_
+Info 138  [11:59:33.002] Elapsed:: 0.03720799973234534ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/index.pack_ 6:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 139  [11:59:33.002] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/index.pack 7:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 140  [11:59:33.002] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/index.pack
+Info 141  [11:59:33.002] Elapsed:: 0.2782339998520911ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/server-development/index.pack 7:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 142  [11:59:34.469] Before ensureProjectForOpenFiles:
+Info 143  [11:59:34.469] After ensureProjectForOpenFiles:
+Info 144  [11:59:34.469] got projects updated in background, updating diagnostics for /home/tsotetsi/Projects/Code/Sandbox/crisp/pages/_app.js
+Info 145  [12:00:31.965] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/3.pack_ 0:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 146  [12:00:31.965] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/3.pack_
+Info 147  [12:00:31.968] Elapsed:: 3.2839580001309514ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/3.pack_ 0:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 148  [12:00:31.968] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/1.pack_ 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 149  [12:00:31.968] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/1.pack_
+Info 150  [12:00:31.968] Elapsed:: 0.05060900002717972ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/1.pack_ 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 151  [12:00:31.968] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/index.pack_ 2:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 152  [12:00:31.968] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/index.pack_
+Info 153  [12:00:31.968] Elapsed:: 0.04549599997699261ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/index.pack_ 2:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 154  [12:00:31.968] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/index.pack 3:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 155  [12:00:31.968] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/index.pack
+Info 156  [12:00:31.968] Elapsed:: 0.06369399977847934ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/index.pack 3:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 157  [12:00:31.968] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/index.pack.old 4:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 158  [12:00:31.968] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/index.pack.old
+Info 159  [12:00:31.968] Elapsed:: 0.04238099977374077ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/index.pack.old 4:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 160  [12:00:31.968] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/3.pack_ 5:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 161  [12:00:31.968] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/3.pack_
+Info 162  [12:00:31.968] Elapsed:: 0.04072700021788478ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/3.pack_ 5:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 163  [12:00:31.969] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/3.pack 6:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 164  [12:00:31.969] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/3.pack
+Info 165  [12:00:31.969] Elapsed:: 0.045471000019460917ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/3.pack 6:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 166  [12:00:31.969] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/1.pack_ 7:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 167  [12:00:31.969] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/1.pack_
+Info 168  [12:00:31.969] Elapsed:: 0.06390399998053908ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/1.pack_ 7:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 169  [12:00:31.969] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/1.pack 8:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 170  [12:00:31.969] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/1.pack
+Info 171  [12:00:31.969] Elapsed:: 0.0355320000089705ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/1.pack 8:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 172  [12:00:31.969] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/index.pack_ 9:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 173  [12:00:31.969] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/index.pack_
+Info 174  [12:00:31.969] Elapsed:: 0.03890099981799722ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/index.pack_ 9:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 175  [12:00:31.969] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/index.pack 10:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory
+Info 176  [12:00:31.969] Project: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/index.pack
+Info 177  [12:00:31.969] Elapsed:: 0.03501399978995323ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/crisp/.next/cache/webpack/client-development/index.pack 10:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/crisp/jsconfig.json WatchType: Wild card directory

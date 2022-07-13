@@ -7,7 +7,7 @@ export default function Home() {
       <Hero>
         <div>
         <h1>Hello World!!From Tsotetsi</h1>
-        <p>Good day from Maseru</p>
+        <p>Let's play with the moon today!!</p>
       </div>
       </Hero>
 

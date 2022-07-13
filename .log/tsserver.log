@@ -1,0 +1,55 @@
+Info 0    [11:25:43.920] Starting TS Server
+Info 1    [11:25:43.920] Version: 4.6.4
+Info 2    [11:25:43.920] Arguments: /usr/bin/node /usr/lib/node_modules/typescript/lib/tsserver.js --logFile /home/tsotetsi/Projects/Code/Sandbox/crisp/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/ab48639d8c2c583cabe79b0f0f71536a/tscancellation*
+Info 3    [11:25:43.920] Platform: linux NodeVersion: 18 CaseSensitive: true
+Info 4    [11:25:43.920] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [11:25:43.930] Format host information updated
+Info 6    [11:25:43.936] Search path: /home/tsotetsi/Projects/Code/Sandbox/crisp
+Info 7    [11:25:43.937] For info: /home/tsotetsi/Projects/Code/Sandbox/crisp/next.config.js :: No config files found.
+Info 8    [11:25:43.940] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [11:25:44.548] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 607.9083230000688ms
+Info 10   [11:25:44.548] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [11:25:44.548] 	Files (19)
+
+Info 12   [11:25:44.548] -----------------------------------------------
+Info 13   [11:25:44.555] AutoImportProviderProject: found 3 root files in 3 dependencies in 5.8588849999941885 ms
+Info 14   [11:25:44.573] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 15   [11:25:45.044] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 470.71146899997257ms
+Info 16   [11:25:45.044] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 17   [11:25:45.044] 	Files (81)
+
+Info 18   [11:25:45.044] -----------------------------------------------
+Info 19   [11:25:54.524] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 20   [11:25:54.531] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 7.044147999957204ms
+Info 21   [11:25:54.531] Different program with same set of files
+Info 22   [11:25:54.909] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 23   [11:25:54.918] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 9.702522000065073ms
+Info 24   [11:25:54.919] Different program with same set of files
+Info 25   [11:25:55.267] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 26   [11:25:55.273] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 5.3265440000686795ms
+Info 27   [11:25:55.273] Different program with same set of files
+Info 28   [11:25:56.392] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 29   [11:25:56.397] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 5.059654999990016ms
+Info 30   [11:25:56.398] Different program with same set of files
+Info 31   [11:25:56.708] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 32   [11:25:56.714] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 5.2187570000533015ms
+Info 33   [11:25:56.714] Different program with same set of files
+Info 34   [11:25:56.950] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 35   [11:25:56.956] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 6.173600999987684ms
+Info 36   [11:25:56.956] Different program with same set of files
+Info 37   [11:25:57.480] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 38   [11:25:57.484] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 4.402691000024788ms
+Info 39   [11:25:57.484] Different program with same set of files
+Info 40   [11:26:10.722] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 41   [11:26:11.238] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 9 structureChanged: true structureIsReused:: Not Elapsed: 515.6690980000421ms
+Info 42   [11:26:11.238] Project '/dev/null/inferredProject1*' (Inferred)
+Info 43   [11:26:11.238] 	Files (175)
+
+Info 44   [11:26:11.238] -----------------------------------------------
+Info 45   [11:26:11.238] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 46   [11:26:11.238] 	Files (81)
+
+Info 47   [11:26:11.238] -----------------------------------------------
+Info 48   [11:26:12.972] Before ensureProjectForOpenFiles:
+Info 49   [11:26:12.972] After ensureProjectForOpenFiles:
+Info 50   [11:26:12.973] got projects updated in background, updating diagnostics for /home/tsotetsi/Projects/Code/Sandbox/crisp/next.config.js

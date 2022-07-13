@@ -1,0 +1,82 @@
+[11:25:44.085] Global cache location '/home/tsotetsi/.cache/typescript/4.6', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[11:25:44.085] Processing cache location '/home/tsotetsi/.cache/typescript/4.6'
+[11:25:44.085] Trying to find '/home/tsotetsi/.cache/typescript/4.6/package.json'...
+[11:25:44.087] Loaded content of '/home/tsotetsi/.cache/typescript/4.6/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.599"},"devDependencies":{"@types/eslint":"^8.4.5","@types/hoist-non-react-statics":"^3.3.1","@types/lodash.throttle":"^4.1.7","@types/node":"^17.0.34","@types/react":"^18.0.14","@types/react-dom":"^18.0.5","@types/react-is":"^17.0.3","@types/react-scroll":"^1.8.3","@types/shallowequal":"^1.1.1","@types/styled-components":"^5.1.25"}}
+[11:25:44.087] Loaded content of '/home/tsotetsi/.cache/typescript/4.6/package-lock.json'
+[11:25:44.095] Adding entry into typings cache: 'eslint' => '/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/eslint/index.d.ts'
+[11:25:44.098] Adding entry into typings cache: 'hoist-non-react-statics' => '/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/hoist-non-react-statics/index.d.ts'
+[11:25:44.099] Adding entry into typings cache: 'lodash.throttle' => '/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/lodash.throttle/index.d.ts'
+[11:25:44.102] Adding entry into typings cache: 'node' => '/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/node/index.d.ts'
+[11:25:44.104] Adding entry into typings cache: 'react' => '/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/react/index.d.ts'
+[11:25:44.105] Adding entry into typings cache: 'react-dom' => '/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/react-dom/index.d.ts'
+[11:25:44.106] Adding entry into typings cache: 'react-is' => '/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/react-is/index.d.ts'
+[11:25:44.107] Adding entry into typings cache: 'react-scroll' => '/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/react-scroll/index.d.ts'
+[11:25:44.108] Adding entry into typings cache: 'shallowequal' => '/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/shallowequal/index.d.ts'
+[11:25:44.109] Adding entry into typings cache: 'styled-components' => '/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/styled-components/index.d.ts'
+[11:25:44.109] Finished processing cache location '/home/tsotetsi/.cache/typescript/4.6'
+[11:25:44.109] Process id: 17344
+[11:25:44.109] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[11:25:44.109] validateDefaultNpmLocation: false
+[11:25:44.109] Npm config file: /home/tsotetsi/.cache/typescript/4.6/package.json
+[11:25:44.109] Updating types-registry npm package...
+[11:25:44.109] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[11:26:09.044]     Succeeded. stdout:
+    
+    changed 1 package, and audited 20 packages in 25s
+
+found 0 vulnerabilities
+
+[11:26:09.044] Updated types-registry npm package
+[11:26:09.069] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/tsotetsi/Projects/Code/Sandbox/crisp/next.config.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/tsotetsi/Projects/Code/Sandbox/crisp","kind":"discover"}
+[11:26:09.075] Loaded safelist from types map file '/usr/lib/node_modules/typescript/lib/typesMap.json'
+[11:26:09.075] Explicitly included types: []
+[11:26:09.076] Typing names in '/home/tsotetsi/Projects/Code/Sandbox/crisp/package.json' dependencies: ["next","react","react-dom"]
+[11:26:09.076] Searching for typing names in /home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules; all files: ["/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/package.json","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/react/package.json","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/react-dom/package.json"]
+[11:26:09.078]     Package 'next' provides its own types.
+[11:26:09.078]     Found package names: ["react","react-dom"]
+[11:26:09.079] Inferred typings from unresolved imports: []
+[11:26:09.079] Result: {"cachedTypingPaths":["/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/index.d.ts"],"newTypingNames":["react","react-dom"],"filesToWatch":["/home/tsotetsi/Projects/Code/Sandbox/crisp/bower_components","/home/tsotetsi/Projects/Code/Sandbox/crisp/package.json","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules"]}
+[11:26:09.079] Finished typings discovery: {"cachedTypingPaths":["/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/index.d.ts"],"newTypingNames":["react","react-dom"],"filesToWatch":["/home/tsotetsi/Projects/Code/Sandbox/crisp/bower_components","/home/tsotetsi/Projects/Code/Sandbox/crisp/package.json","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules"]}
+[11:26:09.079] DirectoryWatcher:: Added:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp/bower_components
+[11:26:09.079] DirectoryWatcher:: Added:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[11:26:09.080] Elapsed:: 1.090788000030443ms DirectoryWatcher:: Added:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[11:26:09.080] FileWatcher:: Added:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp/package.json
+[11:26:09.081] FileWatcher:: Added:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp/package.json 2000 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[11:26:09.081] DirectoryWatcher:: Added:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules
+[11:26:09.081] DirectoryWatcher:: Added:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[11:26:09.094] Elapsed:: 13.381353000062518ms DirectoryWatcher:: Added:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[11:26:09.094] Installing typings ["react","react-dom"]
+[11:26:09.095] Npm config file: /home/tsotetsi/.cache/typescript/4.6/package.json
+[11:26:09.095] Sending response:
+    {"kind":"event::beginInstallTypes","eventId":1,"typingsInstallerVersion":"4.6.4","projectName":"/dev/null/inferredProject1*"}
+[11:26:09.095] Response has been sent.
+[11:26:09.095] #1 with arguments'["@types/react@ts4.6","@types/react-dom@ts4.6"]'.
+[11:26:09.095] Exec: /usr/bin/npm install --ignore-scripts @types/react@ts4.6 @types/react-dom@ts4.6 --save-dev --user-agent="typesInstaller/4.6.4"
+[11:26:10.468]     Succeeded. stdout:
+    
+    changed 2 packages, and audited 20 packages in 1s
+
+found 0 vulnerabilities
+
+[11:26:10.468] npm install #1 took: 1373 ms
+[11:26:10.468] Installed typings ["@types/react@ts4.6","@types/react-dom@ts4.6"]
+[11:26:10.471] Installed typing files ["/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/react/index.d.ts","/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/react-dom/index.d.ts"]
+[11:26:10.471] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/index.d.ts","/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/react/index.d.ts","/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/react-dom/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[11:26:10.471] Response has been sent.
+[11:26:10.471] Sending response:
+    {"kind":"event::endInstallTypes","eventId":1,"projectName":"/dev/null/inferredProject1*","packagesToInstall":["@types/react@ts4.6","@types/react-dom@ts4.6"],"installSuccess":true,"typingsInstallerVersion":"4.6.4"}
+[11:26:10.471] Response has been sent.
+[11:26:11.340] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/tsotetsi/Projects/Code/Sandbox/crisp/next.config.js","/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/react/global.d.ts","/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/react/index.d.ts","/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/react-dom/index.d.ts","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/amp.d.ts","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/app.d.ts","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/config.d.ts","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/document.d.ts","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/dynamic.d.ts","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/error.d.ts","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/head.d.ts","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/image.d.ts","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/link.d.ts","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/router.d.ts","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/script.d.ts","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/server.d.ts","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/index.d.ts"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/tsotetsi/Projects/Code/Sandbox/crisp","kind":"discover"}
+[11:26:11.340] Explicitly included types: []
+[11:26:11.341] Typing names in '/home/tsotetsi/Projects/Code/Sandbox/crisp/package.json' dependencies: ["next","react","react-dom"]
+[11:26:11.341] Searching for typing names in /home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules; all files: ["/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/package.json","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/react/package.json","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/react-dom/package.json"]
+[11:26:11.350]     Package 'next' provides its own types.
+[11:26:11.352]     Found package names: ["react","react-dom"]
+[11:26:11.352] Inferred typings from unresolved imports: []
+[11:26:11.352] Result: {"cachedTypingPaths":["/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/index.d.ts","/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/react/index.d.ts","/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/react-dom/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/tsotetsi/Projects/Code/Sandbox/crisp/bower_components","/home/tsotetsi/Projects/Code/Sandbox/crisp/package.json","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules"]}
+[11:26:11.352] Finished typings discovery: {"cachedTypingPaths":["/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/index.d.ts","/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/react/index.d.ts","/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/react-dom/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/tsotetsi/Projects/Code/Sandbox/crisp/bower_components","/home/tsotetsi/Projects/Code/Sandbox/crisp/package.json","/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules"]}
+[11:26:11.352] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/tsotetsi/Projects/Code/Sandbox/crisp/node_modules/next/index.d.ts","/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/react/index.d.ts","/home/tsotetsi/.cache/typescript/4.6/node_modules/@types/react-dom/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[11:26:11.353] Response has been sent.
+[11:26:11.353] No new typings were requested as a result of typings discovery
